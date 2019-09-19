@@ -1,5 +1,5 @@
 {
-  "name": "hieu-le/active",
+  "name": "summerblue/laravel-active",
   "description": "The helper class for Laravel (4/5) applications to get active class base on current route",
   "keywords": [
     "laravel",
@@ -7,7 +7,7 @@
     "routing"
   ],
   "license": "MIT",
-  "homepage": "https://www.hieule.info/tag/laravel-active/",
+  "homepage": "https://github.com/summerblue-ext-forks/active",
   "authors": [
     {
       "name": "Hieu Le",
@@ -17,7 +17,7 @@
   ],
   "require": {
     "php": ">=7.0",
-    "laravel/framework": "^5.5"
+    "laravel/framework": "6.*"
   },
   "require-dev": {
     "phpunit/phpunit": "~6.0",

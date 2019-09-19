@@ -19,7 +19,7 @@ This README file is written for the new `3.x` version of this package, which is 
 Require this package as your dependencies:
 
 ```
-composer require hieu-le/active
+composer require summerblue/laravel-active
 ```
 
 

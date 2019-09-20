@@ -138,7 +138,7 @@ class Active
     }
 
     /**
-     * Check if the current URI matches one of specific patterns (using `str_is`)
+     * Check if the current URI matches one of specific patterns (using `Str::is`)
      *
      * @param array|string $patterns
      *
@@ -151,7 +151,7 @@ class Active
         }
 
         foreach ((array)$patterns as $p) {
-            if (str_is($p, $this->uri)) {
+            if (Str::is($p, $this->uri)) {
                 return true;
             }
         }
@@ -233,7 +233,7 @@ class Active
         }
 
         foreach ((array)$patterns as $p) {
-            if (str_is($p, $routeName)) {
+            if (Str::is($p, $routeName)) {
                 return true;
             }
         }

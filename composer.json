@@ -1,5 +1,5 @@
 {
-  "name": "summerblue/laravel-active",
+  "name": "senhanxiao/laravel-active",
   "description": "The helper class for Laravel (4/5) applications to get active class base on current route",
   "keywords": [
     "laravel",
